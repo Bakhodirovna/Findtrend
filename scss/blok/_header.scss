@@ -1,0 +1,49 @@
+.header{
+    background: url(../../images/black-fon.png);
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 30px 0px 12px 0px;
+    top: 0;
+    z-index: 999999;
+    &__info{
+        display: flex;
+        align-items: center;
+    }
+    &__navbar{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-left: auto;
+        &>li:nth-child(6){
+            margin-left: 183px;
+        }
+        &>li+li{
+            margin-left: 40px;
+        }
+        &>li>button{
+            border: none;
+            padding: 12px 32px;
+            background-color: #FFFFFF;
+            font-family: 'Effra',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            text-align: center;
+            color: #000000;   
+            border-radius: 40px;  
+            cursor: pointer;           
+        }
+        &>li>a{
+            text-decoration: none;
+            font-family: 'Effra',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 100%;
+            text-align: center;
+            color: #FFFFFF;                
+        }
+    }
+}
